@@ -4,10 +4,7 @@ os:
   - linux
   - osx
 
-before_install:
-  - chmod +x installjdtls.sh
-  - chmod +x mvnw
-
 script: 
   - ./installjdtls.sh
+  - ./mvnw clean verify
 
