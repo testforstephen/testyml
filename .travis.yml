@@ -4,6 +4,10 @@ os:
 - linux
 - osx
 
+before_script:
+- chmod +X installjdtls.sh
+- chmod +X mvnw
+
 script: 
 - ./installjdtls.sh
 
