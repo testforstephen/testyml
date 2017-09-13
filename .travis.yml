@@ -8,3 +8,7 @@ script:
   - ./installjdtls.sh
   - ./mvnw clean verify
 
+cache:
+  directories:
+  - $HOME/.m2
+
